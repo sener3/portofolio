@@ -1,0 +1,10 @@
+footer {
+    border-top: 1px solid white;
+}
+
+.footer-container {
+    @include flex(row);
+    a {
+        margin: 20px 25px;
+    }
+}

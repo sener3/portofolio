@@ -1,0 +1,15 @@
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem !important;
+    }
+    .navbar-expand-lg {
+        justify-content: space-between !important;
+    }
+    .navbar-collapse {
+        flex-grow: 0 !important;
+    }
+    .nav-link {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+    }
+}

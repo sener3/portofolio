@@ -1,0 +1,16 @@
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.navbar {
+    @include max-width(1500px);
+}
+
+.navbar-toggler-icon {
+    @include flex(column);
+}

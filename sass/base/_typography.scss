@@ -1,0 +1,30 @@
+.text-blue {
+    color: $main-color;
+}
+
+.navbar-brand {
+    @include typography(1.6rem, 15px);
+    font-family: $secondary-font;
+}
+
+.nav-item {
+    font-weight: 500;
+}
+
+p {
+    @include max-width(1000px);
+    @include typography(1.2rem, 160%);
+}
+
+a {
+    color: white !important;
+    line-height: 15px;
+    &:hover {
+        border-bottom: 1.5px solid white;
+        text-decoration: none !important;
+    }
+}
+
+.home-h1 {
+    opacity: 0;
+}

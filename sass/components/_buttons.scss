@@ -1,0 +1,8 @@
+.button-blue {
+    @include button(transparent, $main-color, white);
+    opacity: 0;
+}
+
+.button-orange {
+    @include button($secondary-color, $secondary-color, white);
+}

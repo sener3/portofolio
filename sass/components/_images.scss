@@ -1,0 +1,12 @@
+.content-container-image {
+    @include image(100%, auto, 500px);
+}
+
+.logo {
+    @include image(100px, 100px, 100px);
+}
+
+.bitmoji {
+    @include image(100%, auto, 450px);
+    opacity: 0;
+}

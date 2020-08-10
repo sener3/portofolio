@@ -1,0 +1,31 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+#header,
+#about,
+#projects,
+#footer {
+    background-color: $main-color;
+}
+
+.container-height-100 {
+    @include container(100vh);
+}
+
+.content-container {
+    @include container(auto);
+}
+
+.row {
+    @include flex(row);
+}
+
+.content-container-item {
+    margin-top: 3rem;
+}
