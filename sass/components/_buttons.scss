@@ -6,3 +6,7 @@
 .button-orange {
     @include button($secondary-color, $secondary-color, white);
 }
+
+.nav-link {
+    z-index: 999;
+}

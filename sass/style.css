@@ -63,6 +63,10 @@ a:hover {
   outline: none;
 }
 
+.nav-link {
+  z-index: 999;
+}
+
 i {
   color: white;
   font-size: 1.3rem;
